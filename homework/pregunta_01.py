@@ -103,7 +103,7 @@ import os
 import matplotlib.pyplot as plt
 
 # Crear carpeta 'files/plots' si no existe
-output_dir = "./files/plots"
+output_dir = "../files/plots"
 if not os.path.exists(output_dir):
     print(f"Creando la carpeta: {output_dir}")
     os.makedirs(output_dir)
