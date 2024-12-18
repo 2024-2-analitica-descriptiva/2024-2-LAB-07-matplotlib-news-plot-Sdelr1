@@ -117,5 +117,6 @@ try:
     print(f"Gráfico guardado en: {output_path}")
 except Exception as e:
     print(f"Error al guardar el gráfico: {e}")
+    
 
 
